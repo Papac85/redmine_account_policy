@@ -42,7 +42,7 @@ There is also the option to send the user an email for each failed login.  The u
 
 Automatically locks registered and active accounts that were not used for the specified number of days.
 Setting to `0` disables this feature.
-Maximum of `99` days.
+Maximum of `999` days.
 
 ## Technical stuff
 

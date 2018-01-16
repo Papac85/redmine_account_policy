@@ -58,7 +58,7 @@
 <p><label><%= l(:rap_setting_unused_account) %></label></p>
 <p>
 	<%= l(:rap_setting_unused_account_max_age) %>
-	<%= number_field_tag 'settings[unused_account_max_age]', @settings[:unused_account_max_age], min: 0, max: 99 %>
+	<%= number_field_tag 'settings[unused_account_max_age]', @settings[:unused_account_max_age], min: 0, max: 999 %>
 	<%= l(:label_day_plural) %>
 </p>
 
